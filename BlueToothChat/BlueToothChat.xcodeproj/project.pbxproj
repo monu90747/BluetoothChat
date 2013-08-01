@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B7077B16D338A300CB6606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B7077A16D338A300CB6606 /* UIKit.framework */; };
+		09B7077D16D338A300CB6606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B7077C16D338A300CB6606 /* Foundation.framework */; };
+		09B7077F16D338A300CB6606 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B7077E16D338A300CB6606 /* CoreGraphics.framework */; };
+		09B7078516D338A300CB6606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09B7078316D338A300CB6606 /* InfoPlist.strings */; };
+		09B7078716D338A300CB6606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7078616D338A300CB6606 /* main.m */; };
+		09B7078B16D338A300CB6606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7078A16D338A300CB6606 /* AppDelegate.m */; };
+		09B7078E16D338A300CB6606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7078D16D338A300CB6606 /* ViewController.m */; };
+		09B7079116D338A400CB6606 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B7078F16D338A300CB6606 /* ViewController.xib */; };
+		09B707A716D33C1B00CB6606 /* ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7079F16D33C1B00CB6606 /* ChatView.m */; };
+		09B707A816D33C1B00CB6606 /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B707A016D33C1B00CB6606 /* ChatView.xib */; };
+		09B707A916D33C1B00CB6606 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B707A216D33C1B00CB6606 /* Bubble.m */; };
+		09B707AA16D33C1B00CB6606 /* chatBubbleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B707A316D33C1B00CB6606 /* chatBubbleBlue.png */; };
+		09B707AB16D33C1B00CB6606 /* TEXTFRAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B707A416D33C1B00CB6606 /* TEXTFRAME.png */; };
+		09B707AC16D33C1B00CB6606 /* chatBubblemageda.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B707A516D33C1B00CB6606 /* chatBubblemageda.png */; };
+		09B707AD16D33C1B00CB6606 /* 25X25.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B707A616D33C1B00CB6606 /* 25X25.png */; };
+		09B707BD16D33EF200CB6606 /* BTInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B707BC16D33EF200CB6606 /* BTInterface.m */; };
+		09B707BF16D33F8900CB6606 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B707BE16D33F8900CB6606 /* GameKit.framework */; };
+		09B707C816D34CA700CB6606 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B707C716D34CA700CB6606 /* UserProfile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B7077616D338A300CB6606 /* BlueToothChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B7077A16D338A300CB6606 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09B7077C16D338A300CB6606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09B7077E16D338A300CB6606 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09B7078216D338A300CB6606 /* BlueToothChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueToothChat-Info.plist"; sourceTree = "<group>"; };
+		09B7078416D338A300CB6606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09B7078616D338A300CB6606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B7078816D338A300CB6606 /* BlueToothChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueToothChat-Prefix.pch"; sourceTree = "<group>"; };
+		09B7078916D338A300CB6606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09B7078A16D338A300CB6606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09B7078C16D338A300CB6606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09B7078D16D338A300CB6606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09B7079016D338A400CB6606 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		09B7079E16D33C1B00CB6606 /* ChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatView.h; sourceTree = "<group>"; };
+		09B7079F16D33C1B00CB6606 /* ChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatView.m; sourceTree = "<group>"; };
+		09B707A016D33C1B00CB6606 /* ChatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatView.xib; sourceTree = "<group>"; };
+		09B707A116D33C1B00CB6606 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
+		09B707A216D33C1B00CB6606 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
+		09B707A316D33C1B00CB6606 /* chatBubbleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBubbleBlue.png; sourceTree = "<group>"; };
+		09B707A416D33C1B00CB6606 /* TEXTFRAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TEXTFRAME.png; sourceTree = "<group>"; };
+		09B707A516D33C1B00CB6606 /* chatBubblemageda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBubblemageda.png; sourceTree = "<group>"; };
+		09B707A616D33C1B00CB6606 /* 25X25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25X25.png; sourceTree = "<group>"; };
+		09B707BB16D33EF200CB6606 /* BTInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTInterface.h; sourceTree = "<group>"; };
+		09B707BC16D33EF200CB6606 /* BTInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTInterface.m; sourceTree = "<group>"; };
+		09B707BE16D33F8900CB6606 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		09B707C616D34CA700CB6606 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		09B707C716D34CA700CB6606 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B7077316D338A300CB6606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B707BF16D33F8900CB6606 /* GameKit.framework in Frameworks */,
+				09B7077B16D338A300CB6606 /* UIKit.framework in Frameworks */,
+				09B7077D16D338A300CB6606 /* Foundation.framework in Frameworks */,
+				09B7077F16D338A300CB6606 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B7076B16D338A300CB6606 = {
+			isa = PBXGroup;
+			children = (
+				09B707BE16D33F8900CB6606 /* GameKit.framework */,
+				09B7078016D338A300CB6606 /* BlueToothChat */,
+				09B7077916D338A300CB6606 /* Frameworks */,
+				09B7077716D338A300CB6606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B7077716D338A300CB6606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B7077616D338A300CB6606 /* BlueToothChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B7077916D338A300CB6606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B7077A16D338A300CB6606 /* UIKit.framework */,
+				09B7077C16D338A300CB6606 /* Foundation.framework */,
+				09B7077E16D338A300CB6606 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09B7078016D338A300CB6606 /* BlueToothChat */ = {
+			isa = PBXGroup;
+			children = (
+				09B7078916D338A300CB6606 /* AppDelegate.h */,
+				09B7078A16D338A300CB6606 /* AppDelegate.m */,
+				09B7078C16D338A300CB6606 /* ViewController.h */,
+				09B7078D16D338A300CB6606 /* ViewController.m */,
+				09B7078F16D338A300CB6606 /* ViewController.xib */,
+				09B707C416D34C8B00CB6606 /* MyProfile */,
+				09B707B316D33E8600CB6606 /* Bluetooth */,
+				09B707B016D33C6300CB6606 /* ChatView */,
+				09B707B116D33C7700CB6606 /* Bubble */,
+				09B7078116D338A300CB6606 /* Supporting Files */,
+			);
+			path = BlueToothChat;
+			sourceTree = "<group>";
+		};
+		09B7078116D338A300CB6606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09B707B216D33C9100CB6606 /* Images */,
+				09B7078216D338A300CB6606 /* BlueToothChat-Info.plist */,
+				09B7078316D338A300CB6606 /* InfoPlist.strings */,
+				09B7078616D338A300CB6606 /* main.m */,
+				09B7078816D338A300CB6606 /* BlueToothChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09B707B016D33C6300CB6606 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				09B7079E16D33C1B00CB6606 /* ChatView.h */,
+				09B7079F16D33C1B00CB6606 /* ChatView.m */,
+				09B707A016D33C1B00CB6606 /* ChatView.xib */,
+			);
+			name = ChatView;
+			sourceTree = "<group>";
+		};
+		09B707B116D33C7700CB6606 /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				09B707A116D33C1B00CB6606 /* Bubble.h */,
+				09B707A216D33C1B00CB6606 /* Bubble.m */,
+			);
+			name = Bubble;
+			sourceTree = "<group>";
+		};
+		09B707B216D33C9100CB6606 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09B707A316D33C1B00CB6606 /* chatBubbleBlue.png */,
+				09B707A416D33C1B00CB6606 /* TEXTFRAME.png */,
+				09B707A516D33C1B00CB6606 /* chatBubblemageda.png */,
+				09B707A616D33C1B00CB6606 /* 25X25.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		09B707B316D33E8600CB6606 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				09B707BB16D33EF200CB6606 /* BTInterface.h */,
+				09B707BC16D33EF200CB6606 /* BTInterface.m */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		09B707C416D34C8B00CB6606 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				09B707C616D34CA700CB6606 /* UserProfile.h */,
+				09B707C716D34CA700CB6606 /* UserProfile.m */,
+			);
+			name = MyProfile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B7077516D338A300CB6606 /* BlueToothChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B7079416D338A400CB6606 /* Build configuration list for PBXNativeTarget "BlueToothChat" */;
+			buildPhases = (
+				09B7077216D338A300CB6606 /* Sources */,
+				09B7077316D338A300CB6606 /* Frameworks */,
+				09B7077416D338A300CB6606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothChat;
+			productName = BlueToothChat;
+			productReference = 09B7077616D338A300CB6606 /* BlueToothChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B7076D16D338A300CB6606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 09B7077016D338A300CB6606 /* Build configuration list for PBXProject "BlueToothChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09B7076B16D338A300CB6606;
+			productRefGroup = 09B7077716D338A300CB6606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B7077516D338A300CB6606 /* BlueToothChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B7077416D338A300CB6606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B7078516D338A300CB6606 /* InfoPlist.strings in Resources */,
+				09B7079116D338A400CB6606 /* ViewController.xib in Resources */,
+				09B707A816D33C1B00CB6606 /* ChatView.xib in Resources */,
+				09B707AA16D33C1B00CB6606 /* chatBubbleBlue.png in Resources */,
+				09B707AB16D33C1B00CB6606 /* TEXTFRAME.png in Resources */,
+				09B707AC16D33C1B00CB6606 /* chatBubblemageda.png in Resources */,
+				09B707AD16D33C1B00CB6606 /* 25X25.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B7077216D338A300CB6606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B7078716D338A300CB6606 /* main.m in Sources */,
+				09B7078B16D338A300CB6606 /* AppDelegate.m in Sources */,
+				09B7078E16D338A300CB6606 /* ViewController.m in Sources */,
+				09B707A716D33C1B00CB6606 /* ChatView.m in Sources */,
+				09B707A916D33C1B00CB6606 /* Bubble.m in Sources */,
+				09B707BD16D33EF200CB6606 /* BTInterface.m in Sources */,
+				09B707C816D34CA700CB6606 /* UserProfile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09B7078316D338A300CB6606 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B7078416D338A300CB6606 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09B7078F16D338A300CB6606 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B7079016D338A400CB6606 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B7079216D338A400CB6606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09B7079316D338A400CB6606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B7079516D338A400CB6606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothChat/BlueToothChat-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothChat/BlueToothChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09B7079616D338A400CB6606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothChat/BlueToothChat-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothChat/BlueToothChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B7077016D338A300CB6606 /* Build configuration list for PBXProject "BlueToothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B7079216D338A400CB6606 /* Debug */,
+				09B7079316D338A400CB6606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B7079416D338A400CB6606 /* Build configuration list for PBXNativeTarget "BlueToothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B7079516D338A400CB6606 /* Debug */,
+				09B7079616D338A400CB6606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09B7076D16D338A300CB6606 /* Project object */;
+}
